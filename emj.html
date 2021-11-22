@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <html lang="ru">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>tebe.app: textarea + emoji</title>
+    </head>
+<link href="https://tebe.app/tebeapp.png" rel="shortcut icon" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="emj.css">
+<style> .imjs{cursor: pointer; font-size:25px; white-space: pre} </style>
+<script> let imj = '❤' //tebe.app
+function tebeimj() { document.getElementById("imjtebe").value= document.getElementById("imjtebe").value +imj;}
+</script>
+<textarea id="imjtebe"  placeholder="tebe.app: textarea + emoji" class="tebeapp-j" ></textarea>
+<br>
+<span>
+    <div class="imjs"  onclick="tebeimj(imj=' 😉');" >😉 </div>
+    <div class="imjs"  onclick="tebeimj(imj=' 🔥');" >🔥 </div>
+    <div class="imjs"  onclick="tebeimj(imj=' 👻');" >👻 </div>
+</span> 
+</body>
+</html>
